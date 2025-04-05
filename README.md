@@ -1,5 +1,5 @@
 # Ana
-Ana is a lightweight not so fancy analytics tool that will create 1 file per day.
+Ana is a lightweight not-so-fancy analytics tool that will create 1 file per day.
 Each daily file contains the following information about your visitors:
 1. Timestamp
 2. URL visited
