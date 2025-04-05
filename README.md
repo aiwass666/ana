@@ -28,3 +28,7 @@ For one its simple, fast and does not require much work. Once its deployed it do
 
 ## Drawbacks
 None apart from the fact I will not further develop it since it fits my use case, but be free to fork it, bork it or mess around with it and change it as you like.
+
+### About the Author
+Mathias Haegglund
+Code Collector, Globetrotter, and Occasional Gamer.
