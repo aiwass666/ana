@@ -16,6 +16,20 @@ or even a database, if you really wanted to fill that up.
 4. Call the ana.js in your HTML with a regular script tag for Javascript (your should know how to do that if you've gotten this far)
 5. Check the logs created in you folder structure
 
+### Adaptable parameters
+in ana.js change this to your domain and location of the file
+```javascript
+fetch('https://your-domain.com/nia.php',
+```
+in nia.php
+```php
+header("Access-Control-Allow-Origin: https://your-domain.com"); // can be a * or it can be a domain name. Your choice
+
+$logDir = __DIR__ . "/ana/lytics"; // can be anything you want it to be. 100% flexible
+$logFile = $logDir . "/" . date("Y-m-d") . ".ana";  // use any .blob file format you like
+
+```
+
 ### Example log file
 Taken from a real life implentation of the script, but urls have been changed. That specific original file is 3673 lines big (each line representing a view of a page).
 The more visitors you have the larger the saved file.
