@@ -33,6 +33,7 @@ $logFile = $logDir . "/" . date("Y-m-d") . ".ana";  // use any .blob file format
 ### Example log file
 Taken from a real life implentation of the script, but urls have been changed. That specific original file is 3673 lines big (each line representing a view of a page).
 The more visitors you have the larger the saved file.
+
 *2025-03-13T09:00:00.012Z, https://domain-name.com/tag/lamborghini, Lamborghini - Fictional Car Magazine, Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Chrome/133.0.6943.141 Safari/537.36*
 
 *2025-03-13T09:01:28.502Z, https://domain-name.com/adidas-originals-by-hyke, Adidas Originals by HYKE - Fictional Fashion Magazine, Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0*
